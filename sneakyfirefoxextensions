@@ -1,0 +1,82 @@
+Asterisk (*) signifies that I consider the extension unmatched for my usage.
+(The others are still excellent; the ⭐ is just my personal “don’t-browse-without-it” badge.)
+
+Privacy & Tracking-Protection
+• uBlock Origin * — the all-in-one network/element blocker (EasyList, EasyPrivacy, …)
+• Privacy Badger — heuristic tracker blocker from EFF
+• Decentraleyes — self-hosts popular JS/CSS libraries to foil CDNs
+• LocalCDN — like Decentraleyes but broader coverage & auto-update rules
+• ClearURLs * — strips tracking query-strings & AMP garbage
+• I don’t care about cookies — auto-dismisses EU cookie banners
+• DuckDuckGo Privacy Essentials — tracker blocking + HTTPS enforcement
+• CanvasBlocker — anti-canvas-fingerprinting tweaks
+• Trace — fingerprint, WebRTC, timing-attack protections (advanced)
+• JShelter — EFF/Uni research extension, active JS hardening
+
+Cookie / Storage Hygiene
+• Cookie AutoDelete * — nuke site cookies/storage right after you close the tab
+• Temporary Containers * — opens each domain in an isolated, disposable container
+• Firefox Multi-Account Containers — manual container profiles (work, bank, social, …)
+• SiteBleacher — scheduled cookie purge white/black-list
+
+Network / Encryption
+• Smart HTTPS — forces HTTPS, falls back gracefully (HTTPS-Only can replace it)
+• NoScript * — full per-site JS / XHR / WebGL / media permission control
+• uMatrix (legacy/unmaintained but still usable) — point-n-click matrix firewall
+• HTTPZ — HTTPS rewrite with preloaded cache
+
+Ad/Content-Specific Blocking
+• SponsorBlock * — auto-skip sponsored segments on YouTube & peers
+• Enhancer for YouTube — interface tweaks, force codec/res, volume boost
+• Return YouTube Dislike — restores community dislike counts
+• Bypass Paywalls Clean — bypass many soft paywalls (side-load, not AMO)
+• LibreTube Redirect — auto-open YT links in an Invidious / Piped front-end
+
+Tab / Session Management
+• Sidebery * — vertical tree tabs, containers & bookmarks in one sidebar
+• Tree Style Tab — the classic tab hierarchy
+• Tab Stash — stash tabs into bookmark folders & unclutter
+• Auto Tab Discard — suspend background tabs to free RAM
+• OneTab — convert all open tabs into a list (low-mem parking)
+
+Productivity / UX
+• Tridactyl * — full Vim-like keyboard control (native-messaging optional)
+• Vimium-FF — lighter Vim key-bindings
+• Dark Reader * — dynamic dark theme for every site
+• Stylus — user CSS manager (combined with userstyles.org)
+• Violentmonkey — userscript manager (better FOSS alternative to Tampermonkey)
+• SingleFile * — save entire page as one self-contained HTML
+• Tranquility Reader — clean, offline-readable article view
+• LeechBlock NG — FOSS site blocker / time limiter
+• Markdown Viewer Webext — render .md in-browser
+• JSON Formatter * — pretty-prints raw JSON, collapsible nodes
+• Plasma Integration (KDE) / GNOME Shell integration — native desktop portals
+
+Developer / Power-User
+• Wappalyzer — detect tech stack of visited sites
+• Built-With — similar tech fingerprinting
+• Cookie Quick Manager — fine-grained cookie/storage inspector
+• CORS Eraser — temporary CORS header override for testing
+• HTTP Header Live — view live request/response headers
+• Live Reload — auto-reload tab on file change (dev testing)
+• Firebug theme + devtools tweaks — make built-in devtools nicer
+
+Security / Credentials
+• Bitwarden * — cloud-sync password manager (self-host optional)
+• KeePassXC-Browser — bridge for local KeePass database
+• PwnFox — multi-colour browser profiles for pentesters (Burp etc.)
+• OpenPGP in Web Mail — mailvelope / web-ext GPG helpers
+
+Miscellaneous Goodies
+• Dig Toolbar — DNS lookup from toolbar
+• FlagFox — shows server country & quick IP tools
+• Redirector — create custom URL rewrite rules (e.g. twitter → nitter)
+• Skip Redirect — jump directly to the final URL when services add a bounce page
+• Snowflake — help censored users reach Tor (act as volunteer proxy)
+
+Deprecated / Built-in (mentioned for history)
+• HTTPS Everywhere — merged into Firefox HTTPS-Only Mode
+• Self-Destructing Cookies — superseded by Cookie AutoDelete
+• Disconnect — lists now baked into Firefox’s Enhanced Tracking Protection
+
+Mix, match, sneak.
