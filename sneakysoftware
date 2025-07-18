@@ -1,0 +1,322 @@
+Asterisk (*) signifies that I consider the software unmatched for my usage.
+(Everything else is still great—you just get my personal S-tier stamp when you see *.)
+GNU/Linux OS
+Void Linux (musl)*
+Alpine Linux
+NixOS*
+Debian (net-inst, minimal)
+Arch Linux
+Gentoo (source-based)
+Artix (runit/openrc)
+openSUSE MicroOS (immutable)
+Init System
+runit*
+openrc
+s6
+dinit
+systemd (when unavoidable)
+Login Manager
+Ly*
+greetd + gtkgreet
+nodm (auto-login to X)
+
+Shell
+zsh* (+ zinit/antidote)
+fish
+dash (as /bin/sh)
+mksh
+bash (ubiquitous)
+Terminal Emulator
+st*
+alacritty
+kitty
+foot (Wayland)
+urxvt
+xterm (fallback)
+Terminal Multiplexer
+tmux*
+screen
+dvtm (+ abduco)
+
+Window Manager
+dwm* (tiling, X11)
+sway* (tiling, Wayland)
+i3
+bspwm
+herbstluftwm
+qtile (Python)
+openbox (stacking)
+fluxbox / icewm (classic stacking)
+Compositor
+picom* (X11)
+xcompmgr
+wayfire (plug-in Wayland)
+kwin_wayland
+Panel / Bar
+dwm statusbar (patches)*
+dwmblocks
+polybar
+tint2
+waybar (Wayland)
+Launcher / Menu
+dmenu*
+rofi
+wofi (Wayland)
+bemenu
+Notification Daemon
+dunst*
+mako (Wayland)
+notify-send (shell wrapper)
+Clipboard Manager
+xclip*
+xsel
+clipmenu
+wl-clipboard* (Wayland)
+Hotkey Daemon
+sxhkd*
+ydotool (Wayland)
+xbindkeys
+
+Video Player
+mpv*
+ffplay (from ffmpeg)
+vlc (GUI, DVD/BD menus)
+Music Player
+mpg123
+ncmpcpp + mpd*
+cmus
+mpv (audio-only)
+Podcast / Radio
+newsboat + podboat*
+shortwave (GUI)
+Browser
+Firefox* (+ uBlock, etc.)
+Librewolf (hardened FF)
+Floorp
+surf (lightweight, no-addon)
+qutebrowser* (vim-like)
+Brave
+Chromium
+lynx / w3m / links2 (CLI)
+Email Client
+neomutt*
+aerc
+thunderbird
+geary
+alpine (mail)
+Chat / Messaging
+weechat* (IRC + Matrix plug-ins)
+irssi
+element-desktop (Matrix)
+signal-desktop
+telegram-desktop
+matterhorn (TUI Mattermost)
+RSS / News
+newsboat*
+sfeed
+QuiteRSS (GUI)
+
+File Manager
+lf* (CLI)
+ranger
+nnn*
+pcmanfm-qt (GUI)
+thunar
+doublecmd (dual-pane)
+Archiver / Compression
+bsdtar*
+zstd*
+pigz
+xz
+p7zip/7z
+atool (wrapper)
+zip/unzip
+Search / Fuzzy Find
+ripgrep*
+fd*
+fzf*
+ag (silver searcher)
+mlocate / plocate
+Disk / Filesystem
+lsblk / blkid
+btrfs-progs
+e2fsprogs
+gparted (GUI)
+parted / gdisk
+ncdu* (disk usage viewer)
+baobab (GUI)
+Backup / Sync
+rsync*
+borgbackup
+restic
+syncthing*
+duplicity
+
+Image Viewer / Wallpaper
+feh*
+sxiv / nsxiv
+imv (Wayland)
+nitrogen (wallpaper)
+swww (Wayland wallpaper)
+Image Editor
+gimp*
+krita
+imagemagick* (CLI)
+Document Viewer
+zathura* (+mupdf backend, djvu)
+llpp
+mupdf
+okular
+evince
+Office / Docs
+LibreOffice*
+OnlyOffice-Desktop
+Gnumeric
+sc-im (CLI spreadsheet)
+PDF / PostScript Tools
+pdftk*
+qpdf
+ghostscript
+Calculator
+GNU bc*
+qalc (qalc/qalculate)
+calc (apcalc)
+speedcrunch (GUI)
+Text Editor
+neovim* (IDE-capable)
+micro*
+mousepad (light GUI)
+vim
+emacs
+helix
+IDE (big guns)
+vscode-oss
+kdevelop
+CLion (JetBrains)
+Dictionary / Translation
+dictd*
+sdcv
+goldendict
+espeak* (pronunciation)
+translate-shell (trans)
+
+Other Sneaky Utilities
+aria2* (multi-protocol downloader)
+yt-dlp* ("they don't want you to”)
+curl*
+wget
+rsync*
+jq* (JSON swiss-army knife)
+GNU parallel
+entr (run cmd on change)
+sed*, awk*, grep* (toolbox classics)
+httpie (curl-like, nicer output)
+Screenshot / Screencast
+scrot* (X11 screenshots)
+grim + slurp* (Wayland)
+maim
+ffmpeg* (screencast/anything)
+peek (GIF screencasts)
+OBS Studio* (full GUI studio)
+System Monitor
+htop*
+btop
+atop
+glances
+iotop / iftop
+powertop
+bandwhich
+Process Control / Permissions
+sudo*
+doas
+polkit
+Network Tools
+nmtui* (text NM frontend)
+nm-applet
+nmap*
+iperf3*
+bandwhich / nload
+iftop
+vnstat
+tcpdump*
+wireshark
+openvpn
+wireguard*
+Container / Virtualisation
+docker*
+podman
+buildah
+lxc/lxd
+qemu-kvm*
+virt-manager
+vagrant
+distrobox (desktop-friendly containers)
+Security / Encryption
+gpg*
+age
+openssl
+pass* (unix-y pwd mgr)
+keepassxc
+firejail* (sandbox)
+ufw / nftables
+Scheduler / Automation
+cron
+systemd timers
+anacron
+at
+task-spooler
+Task & Time Management
+taskwarrior*
+timewarrior
+calcurse*
+khal/khard (cal+/carddav)
+Notes / Knowledge Base
+vim-wiki*
+obsidian
+org-mode (emacs)
+jrnl (CLI journal)
+Static Site Generator
+hugo*
+zola
+jekyll
+Code Search / Index & Diff
+ctags / universal-ctags*
+cscope
+ripgrep*
+delta (coloured diff)
+meld (GUI merge)
+Build System / CI
+make*
+cmake*
+meson + ninja
+samurai
+Programming Languages / Toolchains
+gcc*
+clang*
+rustc*
+go
+python*
+openjdk (Java)
+lua / luajit
+nim
+Version Control
+git*
+mercurial
+subversion
+tig (TUI git)
+lazygit*
+
+Others – niche but best-in-class at what they do
+inkscape* (vector graphics)
+blender (3D suite)
+audacity* (audio editor)
+shotcut (video editor)
+calibre* (e-book manager)
+handbrake (video transcode)
+godot (game engine)
+adb/fastboot (Android utils)
+gimp* (already above, image editor)
+OBS Studio* (recorder/streamer) [ffmpeg is enough for basic recording though]
+guvcview (webcam GUI; ffmpeg does this too)
+
+be sneaky, be more sneaky
